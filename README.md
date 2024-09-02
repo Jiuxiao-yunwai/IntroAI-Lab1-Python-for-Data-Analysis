@@ -2,8 +2,9 @@
 
 ## 
 
-> [Lab1作业发布页](https://www.lamda.nju.edu.cn/guolz/introai-slides-2024/lab1.pdf)
+> [Lab1作业发布页](https://www.lamda.nju.edu.cn/guolz/introai-slides-2024/lab1.pdf "https://www.lamda.nju.edu.cn/guolz/introai-slides-2024/lab1.pdf")
 
+> [数据集下载页](https://www.lamda.nju.edu.cn/guolz/introai-slides-2024/titanic.csv "https://www.lamda.nju.edu.cn/guolz/introai-slides-2024/lab1.pdf")
 
 在本次作业中，你需要利⽤所学的Python知识完成Titanic数据集的数据分析⼯作。
 
