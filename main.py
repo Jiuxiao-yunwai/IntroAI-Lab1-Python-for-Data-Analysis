@@ -27,3 +27,18 @@ plt.ylabel('Count')
 plt.xticks(rotation=0)
 plt.show()
 plt.close()
+
+
+# 年龄分布
+age_bins = range(0,90,5)
+data['AgeGroup'] = pd.cut(data['Age'], bins=age_bins)
+age_group_counts = data['AgeGroup'].dropna().value_counts().sort_index()
+output("Age Group Counts", age_group_counts)
+
+plt.hist(data['Age'].dropna(), bins=age_bins, color='skyblue', edgecolor='white')
+plt.title('Age Distribution')
+plt.xlabel('Age')
+plt.ylabel('Count')
+plt.xticks(age_bins)
+plt.show()
+plt.close()
