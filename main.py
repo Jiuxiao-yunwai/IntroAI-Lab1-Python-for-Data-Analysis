@@ -12,3 +12,4 @@ def output(title,df):
 data.info()
 output("Head",data.head())
 output("describe",data.describe())
+output("isNull",data.isnull().sum())
