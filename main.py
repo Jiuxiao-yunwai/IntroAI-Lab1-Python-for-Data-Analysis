@@ -5,8 +5,9 @@ endl="\n------------------------------------------------------------------------
 data=pd.read_csv(path)
 
 def output(title,df):
-    print(title,':')
-    print(df,end=endl)
+    print('------',title,'------')
+    print(df)
+    print(endl)
 
 
 data.info()
