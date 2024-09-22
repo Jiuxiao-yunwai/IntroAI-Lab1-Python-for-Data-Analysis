@@ -1,7 +1,7 @@
 import pandas as pd 
 import matplotlib.pyplot as plt
 path="titanic.csv"
-endl="\n-----------------------------------------------------------------------------------\n"
+endl="-----------------------------------------------------------------------------------"
 data=pd.read_csv(path)
 
 def output(title,df):
